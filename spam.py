@@ -7,7 +7,7 @@ from requests import post
 import subprocess
 
 def bersih():
-    os.system("cls")
+    os.system("clear")
 
 def lagi():
     f = input("coba lagi? (y/t):")
