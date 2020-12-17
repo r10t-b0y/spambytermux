@@ -30,7 +30,9 @@ banner = """
                 https://wa.me/6285706429182
 """
 print (banner)
+sleep 5
 no = raw_input("Masukkan Nomer Target (contoh 08575*******) := ")
+sleep 3
 jl = int(input("Masukkan Jumlah :="))
 head = {
 "connection": "keep-alive",
@@ -43,4 +45,4 @@ for i in range(jl):
     r = requests.post("https://cmsapi.mapclub.com/api/signup-otp",data=dat,headers=head)
     print ("status:", r.json())
 lagi()
-os.system("clear")
+os.system("login")
