@@ -30,9 +30,9 @@ banner = """
                 https://wa.me/6285706429182
 """
 print (banner)
-sleep 5
+os.system (sleep 5)
 no = raw_input("Masukkan Nomer Target (contoh 08575*******) := ")
-sleep 3
+os.system (sleep 3)
 jl = int(input("Masukkan Jumlah :="))
 head = {
 "connection": "keep-alive",
