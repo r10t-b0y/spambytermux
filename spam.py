@@ -43,3 +43,4 @@ for i in range(jl):
     r = requests.post("https://cmsapi.mapclub.com/api/signup-otp",data=dat,headers=head)
     print ("status:", r.json())
 lagi()
+os.system("clear")
