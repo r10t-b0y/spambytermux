@@ -28,6 +28,7 @@ banner = """
                       Tools Spam Sms 
     	     https://github.com/r10t-b0y/spambytermux
                 https://wa.me/6285706429182
+            Tools ini hanya bisa di pakai 1 kali njir
 """
 print (banner)
 os.system("sleep 5")
