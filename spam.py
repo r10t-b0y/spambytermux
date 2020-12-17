@@ -12,7 +12,7 @@ def bersih():
 def lagi():
     f = input("coba lagi? (y/t):")
     if f == "y":
-       subprocess.call("python sms.py",shell=True)
+       subprocess.call("python spam.py",shell=True)
     elif f == "t":
          print ("exit")
          sys.exit()  
@@ -26,11 +26,11 @@ banner = """
  o888o  88o8 o888o   88ooo88      o888o    o888ooo888    88ooo88      o888o  
 <=============================================================================>
                       Tools Spam Sms 
-    	     https://github.com/r10t-b0y/sms
+    	     https://github.com/r10t-b0y/spambytermux
                 https://wa.me/6285706429182
 """
 print (banner)
-no = raw_input("Masukkan Nomer Target :=")
+no = raw_input("Masukkan Nomer Target (contoh 08575*******) := ")
 jl = int(input("Masukkan Jumlah :="))
 head = {
 "connection": "keep-alive",
